@@ -1,6 +1,3 @@
-from cgitb import small
-from re import S
-import pytest
 from pathlib import Path
 
 
@@ -47,6 +44,7 @@ def calculate_cubic_volume(length, width, height):
 def calculate_total_ribbon(volume, perimeter):
     total_ribbon = volume + perimeter
     return total_ribbon
+
 
 for present in data:
     length, width, height = present.split('x')
