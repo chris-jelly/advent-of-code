@@ -80,4 +80,3 @@ for string in strings:
 count = CountLights(grid_of_lights)
 
 print(f'There are {count} lights on')
-# Need to grab the action from the string - perhaps add a capture group to the regex?
