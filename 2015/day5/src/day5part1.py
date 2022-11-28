@@ -1,5 +1,5 @@
 from pathlib import Path
-from tools import HasThreeVowels, ContainsDuplicates, ContainsBadStrings
+from tools import HasThreeVowels, ContainsDuplicates, ContainsBadStrings, ContainsAlternatingLetters, ContainsPairOfLetters
 import re
 import sys
 
