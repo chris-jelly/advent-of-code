@@ -51,7 +51,6 @@ def CoordsToAction(start: Tuple, end: Tuple):
 
 
 def CountLights(grid: Dict):
-  # Need to count the total lights that are on
   light_count = 0
   for key in grid.keys():
     if grid[key] == "On":
