@@ -1,0 +1,4 @@
+- Need to unpack the coordinates from the strings
+- Need to define a coordinate system
+- Need to store state of each coordinate (a list of dictionaries?)
+- Need to be able to toggle the rows defined in the instruction set
