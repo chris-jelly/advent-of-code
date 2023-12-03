@@ -4,7 +4,7 @@ from pathlib import Path
 INPUT = Path.joinpath(Path.cwd(), 'input.txt')
 
 with open(INPUT, mode="r") as f:
-  command_sets = [line.rstrip() for line in f]
+    command_sets = [line.rstrip() for line in f]
 
 
 data = ({0: {'name': 'a', 'input_wire': None,
@@ -13,8 +13,8 @@ data = ({0: {'name': 'a', 'input_wire': None,
 data = {}
 
 for line in command_sets:
-  cmd, key = line.split(' -> ')
-  data[key.strip()] = cmd
+    cmd, key = line.split(' -> ')
+    data[key.strip()] = cmd
 
 
 mapping = {
@@ -23,6 +23,3 @@ mapping = {
     "NOT": "",
 
 }
-
-
-def return_value(key):
