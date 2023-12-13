@@ -33,7 +33,7 @@ def compute(s: str) -> int:
             if check_if_impossible(cubes) is True:
                 is_impossible = True
                 break
-        if is_impossible is False:
+        if is_impossible is True:
             total += game_id
 
     return total
